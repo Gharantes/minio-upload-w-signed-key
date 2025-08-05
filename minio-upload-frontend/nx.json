@@ -1,4 +1,9 @@
 {
+  "npmScope": "mu",
+  "workspaceLayout": {
+    "appsDir": "src/app",
+    "libsDir": "src/libs"
+  },
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
